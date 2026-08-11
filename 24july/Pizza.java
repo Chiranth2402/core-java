@@ -1,0 +1,90 @@
+class Pizza {
+	public static void main(String[] args) {
+
+		int pizzaId = 501;
+		int pizzaSize = 12;
+		char crustType = 'T';
+		double price = 299.99;
+		int numberOfSlices = 8;
+		int cheeseLevel = 5;
+		String pizzaName = "Farmhouse";
+		String restaurantName = "Pizza Hut";
+		int orderNumber = 1001;
+		String customerName = "Chiranth";
+		String deliveryLocation = "Rajajinagar";
+		String orderType = "Online";
+		double deliveryDistance = 10.5;
+		double preparationTime = 25.0;
+		double pizzaWeight = 650.5;
+		int toppingCount = 4;
+		int orderYear = 2026;
+		int discountPercentage = 10;
+		String beverage = "Coke";
+		boolean isDelivered = false;
+
+		System.out.println("***** Pizza Details *****");
+		System.out.println("Pizza ID:" + pizzaId);
+		System.out.println("Pizza Size:" + pizzaSize + " inches");
+		System.out.println("Crust Type:" + crustType);
+		System.out.println("Price:" + price);
+		System.out.println("Number of Slices:" + numberOfSlices);
+		System.out.println("Cheese Level:" + cheeseLevel);
+		System.out.println("Pizza Name:" + pizzaName);
+		System.out.println("Restaurant Name:" + restaurantName);
+		System.out.println("Order Number:" + orderNumber);
+		System.out.println("Customer Name:" + customerName);
+		System.out.println("Delivery Location:" + deliveryLocation);
+		System.out.println("Order Type:" + orderType);
+		System.out.println("Delivery Distance:" + deliveryDistance + " KM");
+		System.out.println("Preparation Time:" + preparationTime + " Minutes");
+		System.out.println("Pizza Weight:" + pizzaWeight + " g");
+		System.out.println("Topping Count:" + toppingCount);
+		System.out.println("Order Year:" + orderYear);
+		System.out.println("Discount Percentage:" + discountPercentage);
+		System.out.println("Beverage:" + beverage);
+		System.out.println("Is Delivered:" + isDelivered);
+		System.out.println();
+
+		pizzaId = 502;
+		pizzaSize = 16;
+		crustType = 'C';
+		price = 499.99;
+		numberOfSlices = 10;
+		cheeseLevel = 7;
+		pizzaName = "Veg Supreme";
+		restaurantName = "Domino's";
+		orderNumber = 1002;
+		customerName = "Rahul";
+		deliveryLocation = "Electronic City";
+		orderType = "Take Away";
+		deliveryDistance = 5.8;
+		preparationTime = 18.0;
+		pizzaWeight = 850.0;
+		toppingCount = 6;
+		orderYear = 2027;
+		discountPercentage = 15;
+		beverage = "Pepsi";
+		isDelivered = true;
+
+		System.out.println("Pizza ID:" + pizzaId);
+		System.out.println("Pizza Size:" + pizzaSize + " inches");
+		System.out.println("Crust Type:" + crustType);
+		System.out.println("Price:" + price);
+		System.out.println("Number of Slices:" + numberOfSlices);
+		System.out.println("Cheese Level:" + cheeseLevel);
+		System.out.println("Pizza Name:" + pizzaName);
+		System.out.println("Restaurant Name:" + restaurantName);
+		System.out.println("Order Number:" + orderNumber);
+		System.out.println("Customer Name:" + customerName);
+		System.out.println("Delivery Location:" + deliveryLocation);
+		System.out.println("Order Type:" + orderType);
+		System.out.println("Delivery Distance:" + deliveryDistance + " KM");
+		System.out.println("Preparation Time:" + preparationTime + " Minutes");
+		System.out.println("Pizza Weight:" + pizzaWeight + " g");
+		System.out.println("Topping Count:" + toppingCount);
+		System.out.println("Order Year:" + orderYear);
+		System.out.println("Discount Percentage:" + discountPercentage);
+		System.out.println("Beverage:" + beverage);
+		System.out.println("Is Delivered:" + isDelivered);
+	}
+}

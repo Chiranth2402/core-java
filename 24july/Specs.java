@@ -1,0 +1,90 @@
+class Specs {
+	public static void main(String[] args) {
+
+		int specsId = 901;
+		int lensPower = 2;
+		char frameType = 'F';
+		double price = 1999.99;
+		int frameSize = 52;
+		int bridgeSize = 18;
+		String brandName = "RayBan";
+		String frameColor = "Black";
+		int warrantyMonths = 12;
+		String lensType = "Anti Glare";
+		String frameMaterial = "Metal";
+		String ownerName = "Chiranth";
+		double lensWidth = 5.2;
+		double lensHeight = 4.3;
+		double weight = 25.5;
+		int manufacturedYear = 2026;
+		int templeLength = 140;
+		int stockAvailable = 50;
+		String feature = "Blue Light Filter";
+		boolean isUVProtected = true;
+
+		System.out.println("***** Eye Specs Details *****");
+		System.out.println("Specs ID:" + specsId);
+		System.out.println("Lens Power:" + lensPower);
+		System.out.println("Frame Type:" + frameType);
+		System.out.println("Price:" + price);
+		System.out.println("Frame Size:" + frameSize);
+		System.out.println("Bridge Size:" + bridgeSize);
+		System.out.println("Brand Name:" + brandName);
+		System.out.println("Frame Color:" + frameColor);
+		System.out.println("Warranty Months:" + warrantyMonths);
+		System.out.println("Lens Type:" + lensType);
+		System.out.println("Frame Material:" + frameMaterial);
+		System.out.println("Owner Name:" + ownerName);
+		System.out.println("Lens Width:" + lensWidth + " cm");
+		System.out.println("Lens Height:" + lensHeight + " cm");
+		System.out.println("Weight:" + weight + " g");
+		System.out.println("Manufactured Year:" + manufacturedYear);
+		System.out.println("Temple Length:" + templeLength + " mm");
+		System.out.println("Stock Available:" + stockAvailable);
+		System.out.println("Feature:" + feature);
+		System.out.println("UV Protected:" + isUVProtected);
+		System.out.println();
+
+		specsId = 902;
+		lensPower = 1;
+		frameType = 'R';
+		price = 2499.99;
+		frameSize = 54;
+		bridgeSize = 20;
+		brandName = "Titan Eye+";
+		frameColor = "Brown";
+		warrantyMonths = 24;
+		lensType = "Photochromic";
+		frameMaterial = "Plastic";
+		ownerName = "Rahul";
+		lensWidth = 5.5;
+		lensHeight = 4.5;
+		weight = 28.0;
+		manufacturedYear = 2027;
+		templeLength = 145;
+		stockAvailable = 75;
+		feature = "Scratch Resistant";
+		isUVProtected = false;
+
+		System.out.println("Specs ID:" + specsId);
+		System.out.println("Lens Power:" + lensPower);
+		System.out.println("Frame Type:" + frameType);
+		System.out.println("Price:" + price);
+		System.out.println("Frame Size:" + frameSize);
+		System.out.println("Bridge Size:" + bridgeSize);
+		System.out.println("Brand Name:" + brandName);
+		System.out.println("Frame Color:" + frameColor);
+		System.out.println("Warranty Months:" + warrantyMonths);
+		System.out.println("Lens Type:" + lensType);
+		System.out.println("Frame Material:" + frameMaterial);
+		System.out.println("Owner Name:" + ownerName);
+		System.out.println("Lens Width:" + lensWidth + " cm");
+		System.out.println("Lens Height:" + lensHeight + " cm");
+		System.out.println("Weight:" + weight + " g");
+		System.out.println("Manufactured Year:" + manufacturedYear);
+		System.out.println("Temple Length:" + templeLength + " mm");
+		System.out.println("Stock Available:" + stockAvailable);
+		System.out.println("Feature:" + feature);
+		System.out.println("UV Protected:" + isUVProtected);
+	}
+}

@@ -1,0 +1,32 @@
+class LipstickTest{
+	public static void main(String[] args){
+		Lipstick.brand();
+		Lipstick.shade();
+		Lipstick.color();
+		Lipstick.price();
+		Lipstick.quantity();
+		Lipstick.apply();
+		Lipstick.remove();
+		Lipstick.openCap();
+		Lipstick.closeCap();
+		Lipstick.checkExpiry();
+		Lipstick.manufactureDate();
+		Lipstick.expiryDate();
+		Lipstick.finish();
+		Lipstick.fragrance();
+		Lipstick.waterproof();
+		Lipstick.longLasting();
+		Lipstick.carryInBag();
+		Lipstick.useForParty();
+		Lipstick.useDaily();
+		Lipstick.quality();
+		Lipstick.review();
+		Lipstick.lipstickDetails();
+		Lipstick.madeIn();
+		Lipstick.company();
+		Lipstick.gift();
+		Lipstick.recommendation();
+		Lipstick.store();
+		Lipstick.owner();
+	}
+}

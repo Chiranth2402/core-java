@@ -1,0 +1,32 @@
+class GlassTest{
+	public static void main(String[] args){
+		Glass.glassType();
+		Glass.glassColor();
+		Glass.glassSize();
+		Glass.glassPrice();
+		Glass.glassBrand();
+		Glass.fillWater();
+		Glass.drinkWater();
+		Glass.washGlass();
+		Glass.cleanGlass();
+		Glass.keepOnTable();
+		Glass.pickGlass();
+		Glass.placeGlass();
+		Glass.checkCrack();
+		Glass.glassWeight();
+		Glass.glassHeight();
+		Glass.useInKitchen();
+		Glass.useDaily();
+		Glass.glassShape();
+		Glass.madeOf();
+		Glass.glassQuality();
+		Glass.review();
+		Glass.glassDetails();
+		Glass.useForJuice();
+		Glass.useForMilk();
+		Glass.useForTea();
+		Glass.storeGlass();
+		Glass.dryGlass();
+		Glass.glassOwner();
+	}
+}

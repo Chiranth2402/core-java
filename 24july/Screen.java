@@ -1,0 +1,90 @@
+class Screen {
+	public static void main(String[] args) {
+
+		int screenId = 801;
+		int screenHeight = 5;
+		char frameMaterial = 'A';
+		double price = 2499.99;
+		int screenWidth = 4;
+		int meshCount = 120;
+		String companyName = "Fenesta";
+		String modelName = "Premium Mesh";
+		int warrantyMonths = 24;
+		String frameColor = "White";
+		String installationPlace = "Bedroom";
+		String meshMaterial = "Fiberglass";
+		double screenWeight = 3.8;
+		double thickness = 1.5;
+		double windowArea = 20.0;
+		int manufacturedYear = 2026;
+		int quantity = 15;
+		int frameLength = 60;
+		String feature = "Mosquito Protection";
+		boolean isInstalled = true;
+
+		System.out.println("***** Window Screen Details *****");
+		System.out.println("Screen ID:" + screenId);
+		System.out.println("Screen Height:" + screenHeight + " Feet");
+		System.out.println("Frame Material:" + frameMaterial);
+		System.out.println("Price:" + price);
+		System.out.println("Screen Width:" + screenWidth + " Feet");
+		System.out.println("Mesh Count:" + meshCount);
+		System.out.println("Company Name:" + companyName);
+		System.out.println("Model Name:" + modelName);
+		System.out.println("Warranty Months:" + warrantyMonths);
+		System.out.println("Frame Color:" + frameColor);
+		System.out.println("Installation Place:" + installationPlace);
+		System.out.println("Mesh Material:" + meshMaterial);
+		System.out.println("Screen Weight:" + screenWeight + " Kg");
+		System.out.println("Thickness:" + thickness + " mm");
+		System.out.println("Window Area:" + windowArea + " Sq.ft");
+		System.out.println("Manufactured Year:" + manufacturedYear);
+		System.out.println("Quantity:" + quantity);
+		System.out.println("Frame Length:" + frameLength + " Inches");
+		System.out.println("Feature:" + feature);
+		System.out.println("Is Installed:" + isInstalled);
+		System.out.println();
+
+		screenId = 802;
+		screenHeight = 6;
+		frameMaterial = 'S';
+		price = 3299.99;
+		screenWidth = 5;
+		meshCount = 150;
+		companyName = "Godrej";
+		modelName = "Steel Mesh";
+		warrantyMonths = 36;
+		frameColor = "Brown";
+		installationPlace = "Kitchen";
+		meshMaterial = "Stainless Steel";
+		screenWeight = 4.5;
+		thickness = 2.0;
+		windowArea = 30.0;
+		manufacturedYear = 2027;
+		quantity = 20;
+		frameLength = 72;
+		feature = "Dust Resistant";
+		isInstalled = false;
+
+		System.out.println("Screen ID:" + screenId);
+		System.out.println("Screen Height:" + screenHeight + " Feet");
+		System.out.println("Frame Material:" + frameMaterial);
+		System.out.println("Price:" + price);
+		System.out.println("Screen Width:" + screenWidth + " Feet");
+		System.out.println("Mesh Count:" + meshCount);
+		System.out.println("Company Name:" + companyName);
+		System.out.println("Model Name:" + modelName);
+		System.out.println("Warranty Months:" + warrantyMonths);
+		System.out.println("Frame Color:" + frameColor);
+		System.out.println("Installation Place:" + installationPlace);
+		System.out.println("Mesh Material:" + meshMaterial);
+		System.out.println("Screen Weight:" + screenWeight + " Kg");
+		System.out.println("Thickness:" + thickness + " mm");
+		System.out.println("Window Area:" + windowArea + " Sq.ft");
+		System.out.println("Manufactured Year:" + manufacturedYear);
+		System.out.println("Quantity:" + quantity);
+		System.out.println("Frame Length:" + frameLength + " Inches");
+		System.out.println("Feature:" + feature);
+		System.out.println("Is Installed:" + isInstalled);
+	}
+}

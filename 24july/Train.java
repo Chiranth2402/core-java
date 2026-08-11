@@ -1,0 +1,90 @@
+class Train {
+	public static void main(String[] args) {
+
+		int trainNumber = 12627;
+		int coachCount = 22;
+		char trainType = 'E';
+		double ticketPrice = 850.50;
+		int totalSeats = 1320;
+		int availableSeats = 250;
+		String trainName = "Karnataka Express";
+		String departureStation = "Bengaluru";
+		int departureHour = 8;
+		String arrivalStation = "New Delhi";
+		String platformNumber = "5";
+		String engineType = "Electric";
+		double distanceInKm = 2380.75;
+		double speed = 110.50;
+		double trainLength = 520.25;
+		int manufacturedYear = 2022;
+		int journeyDuration = 39;
+		int pantryCoaches = 2;
+		String routeName = "Bengaluru - New Delhi";
+		boolean isRunningOnTime = true;
+
+		System.out.println("***** Train Details *****");
+		System.out.println("Train Number:" + trainNumber);
+		System.out.println("Coach Count:" + coachCount);
+		System.out.println("Train Type:" + trainType);
+		System.out.println("Ticket Price:" + ticketPrice);
+		System.out.println("Total Seats:" + totalSeats);
+		System.out.println("Available Seats:" + availableSeats);
+		System.out.println("Train Name:" + trainName);
+		System.out.println("Departure Station:" + departureStation);
+		System.out.println("Departure Hour:" + departureHour);
+		System.out.println("Arrival Station:" + arrivalStation);
+		System.out.println("Platform Number:" + platformNumber);
+		System.out.println("Engine Type:" + engineType);
+		System.out.println("Distance:" + distanceInKm + " KM");
+		System.out.println("Speed:" + speed + " km/h");
+		System.out.println("Train Length:" + trainLength + " m");
+		System.out.println("Manufactured Year:" + manufacturedYear);
+		System.out.println("Journey Duration:" + journeyDuration + " Hours");
+		System.out.println("Pantry Coaches:" + pantryCoaches);
+		System.out.println("Route Name:" + routeName);
+		System.out.println("Is Running On Time:" + isRunningOnTime);
+		System.out.println();
+
+		trainNumber = 16591;
+		coachCount = 18;
+		trainType = 'S';
+		ticketPrice = 420.75;
+		totalSeats = 1080;
+		availableSeats = 120;
+		trainName = "Hampi Express";
+		departureStation = "Mysuru";
+		departureHour = 22;
+		arrivalStation = "Hubballi";
+		platformNumber = "3";
+		engineType = "Diesel";
+		distanceInKm = 470.50;
+		speed = 85.25;
+		trainLength = 430.80;
+		manufacturedYear = 2024;
+		journeyDuration = 10;
+		pantryCoaches = 1;
+		routeName = "Mysuru - Hubballi";
+		isRunningOnTime = false;
+
+		System.out.println("Train Number:" + trainNumber);
+		System.out.println("Coach Count:" + coachCount);
+		System.out.println("Train Type:" + trainType);
+		System.out.println("Ticket Price:" + ticketPrice);
+		System.out.println("Total Seats:" + totalSeats);
+		System.out.println("Available Seats:" + availableSeats);
+		System.out.println("Train Name:" + trainName);
+		System.out.println("Departure Station:" + departureStation);
+		System.out.println("Departure Hour:" + departureHour);
+		System.out.println("Arrival Station:" + arrivalStation);
+		System.out.println("Platform Number:" + platformNumber);
+		System.out.println("Engine Type:" + engineType);
+		System.out.println("Distance:" + distanceInKm + " KM");
+		System.out.println("Speed:" + speed + " km/h");
+		System.out.println("Train Length:" + trainLength + " m");
+		System.out.println("Manufactured Year:" + manufacturedYear);
+		System.out.println("Journey Duration:" + journeyDuration + " Hours");
+		System.out.println("Pantry Coaches:" + pantryCoaches);
+		System.out.println("Route Name:" + routeName);
+		System.out.println("Is Running On Time:" + isRunningOnTime);
+	}
+}

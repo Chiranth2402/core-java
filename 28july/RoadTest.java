@@ -1,0 +1,32 @@
+class RoadTest{
+	public static void main(String[] args){
+		Road.roadName();
+		Road.roadLength();
+		Road.roadWidth();
+		Road.roadType();
+		Road.roadCondition();
+		Road.cleanRoad();
+		Road.repairRoad();
+		Road.checkTraffic();
+		Road.trafficSignal();
+		Road.streetLight();
+		Road.zebraCrossing();
+		Road.speedLimit();
+		Road.divider();
+		Road.busStop();
+		Road.tollGate();
+		Road.nearbyPlace();
+		Road.roadOwner();
+		Road.roadColor();
+		Road.roadMaterial();
+		Road.roadReview();
+		Road.roadStatus();
+		Road.roadDetails();
+		Road.roadSafety();
+		Road.roadMarking();
+		Road.accidentReport();
+		Road.emergencyNumber();
+		Road.roadLocation();
+		Road.roadUsage();
+	}
+}

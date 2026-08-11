@@ -1,0 +1,90 @@
+class TShirt {
+	public static void main(String[] args) {
+
+		int tshirtId = 1201;
+		int size = 40;
+		char colorCode = 'B';
+		double price = 799.99;
+		int quantity = 100;
+		int sleeveLength = 10;
+		String brandName = "Puma";
+		String fabricType = "Cotton";
+		int warrantyMonths = 6;
+		String color = "Black";
+		String neckType = "Round Neck";
+		String fitType = "Regular Fit";
+		double weight = 180.5;
+		double length = 72.5;
+		double chestSize = 40.0;
+		int manufacturedYear = 2026;
+		int stockAvailable = 250;
+		int discountPercentage = 20;
+		String feature = "Breathable Fabric";
+		boolean isAvailable = true;
+
+		System.out.println("***** T-Shirt Details *****");
+		System.out.println("T-Shirt ID:" + tshirtId);
+		System.out.println("Size:" + size);
+		System.out.println("Color Code:" + colorCode);
+		System.out.println("Price:" + price);
+		System.out.println("Quantity:" + quantity);
+		System.out.println("Sleeve Length:" + sleeveLength);
+		System.out.println("Brand Name:" + brandName);
+		System.out.println("Fabric Type:" + fabricType);
+		System.out.println("Warranty Months:" + warrantyMonths);
+		System.out.println("Color:" + color);
+		System.out.println("Neck Type:" + neckType);
+		System.out.println("Fit Type:" + fitType);
+		System.out.println("Weight:" + weight + " g");
+		System.out.println("Length:" + length + " cm");
+		System.out.println("Chest Size:" + chestSize + " Inches");
+		System.out.println("Manufactured Year:" + manufacturedYear);
+		System.out.println("Stock Available:" + stockAvailable);
+		System.out.println("Discount Percentage:" + discountPercentage);
+		System.out.println("Feature:" + feature);
+		System.out.println("Is Available:" + isAvailable);
+		System.out.println();
+
+		tshirtId = 1202;
+		size = 42;
+		colorCode = 'W';
+		price = 999.99;
+		quantity = 150;
+		sleeveLength = 11;
+		brandName = "Nike";
+		fabricType = "Polyester";
+		warrantyMonths = 12;
+		color = "White";
+		neckType = "Collar";
+		fitType = "Slim Fit";
+		weight = 200.0;
+		length = 75.0;
+		chestSize = 42.0;
+		manufacturedYear = 2027;
+		stockAvailable = 300;
+		discountPercentage = 15;
+		feature = "Sweat Absorbent";
+		isAvailable = false;
+
+		System.out.println("T-Shirt ID:" + tshirtId);
+		System.out.println("Size:" + size);
+		System.out.println("Color Code:" + colorCode);
+		System.out.println("Price:" + price);
+		System.out.println("Quantity:" + quantity);
+		System.out.println("Sleeve Length:" + sleeveLength);
+		System.out.println("Brand Name:" + brandName);
+		System.out.println("Fabric Type:" + fabricType);
+		System.out.println("Warranty Months:" + warrantyMonths);
+		System.out.println("Color:" + color);
+		System.out.println("Neck Type:" + neckType);
+		System.out.println("Fit Type:" + fitType);
+		System.out.println("Weight:" + weight + " g");
+		System.out.println("Length:" + length + " cm");
+		System.out.println("Chest Size:" + chestSize + " Inches");
+		System.out.println("Manufactured Year:" + manufacturedYear);
+		System.out.println("Stock Available:" + stockAvailable);
+		System.out.println("Discount Percentage:" + discountPercentage);
+		System.out.println("Feature:" + feature);
+		System.out.println("Is Available:" + isAvailable);
+	}
+}

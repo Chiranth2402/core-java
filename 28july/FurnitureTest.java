@@ -1,0 +1,32 @@
+class FurnitureTest{
+	public static void main(String[] args){
+		Furniture.itemName();
+		Furniture.shopName();
+		Furniture.woodType();
+		Furniture.colour();
+		Furniture.cost();
+		Furniture.place();
+		Furniture.clean();
+		Furniture.shift();
+		Furniture.polish();
+		Furniture.checkQuality();
+		Furniture.weight();
+		Furniture.height();
+		Furniture.width();
+		Furniture.material();
+		Furniture.use();
+		Furniture.comfort();
+		Furniture.warranty();
+		Furniture.manufacturer();
+		Furniture.owner();
+		Furniture.review();
+		Furniture.details();
+		Furniture.repair();
+		Furniture.move();
+		Furniture.cover();
+		Furniture.design();
+		Furniture.availability();
+		Furniture.favourite();
+		Furniture.finish();
+	}
+}

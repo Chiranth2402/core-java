@@ -1,0 +1,32 @@
+class CameraTest{
+	public static void main(String[] args){
+		Camera.turnOn();
+		Camera.turnOff();
+		Camera.cameraCompany();
+		Camera.clickPhoto();
+		Camera.recordVideo();
+		Camera.zoomIn();
+		Camera.zoomOut();
+		Camera.enableFlash();
+		Camera.disableFlash();
+		Camera.adjustBrightness();
+		Camera.adjustFocus();
+		Camera.changeResolution();
+		Camera.openGallery();
+		Camera.openPhoto();
+		Camera.savePhoto();
+		Camera.deletePhoto();
+		Camera.galleryOperations();
+		Camera.cameraOperations();
+		Camera.chargeBattery();
+		Camera.checkBatteryLevel();
+		Camera.insertMemoryCard();
+		Camera.removeMemoryCard();
+		Camera.connectWifi();
+		Camera.disconnectWifi();
+		Camera.resetSettings();
+		Camera.cleanLens();
+		Camera.cameraPrice();
+		Camera.cameraOwner();
+	}
+}

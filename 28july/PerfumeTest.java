@@ -1,0 +1,32 @@
+class PerfumeTest{
+	public static void main(String[] args){
+		Perfume.brand();
+		Perfume.fragrance();
+		Perfume.quantity();
+		Perfume.price();
+		Perfume.spray();
+		Perfume.openCap();
+		Perfume.closeCap();
+		Perfume.bottleColor();
+		Perfume.smell();
+		Perfume.useDaily();
+		Perfume.applyOnShirt();
+		Perfume.applyOnNeck();
+		Perfume.checkExpiry();
+		Perfume.manufactureDate();
+		Perfume.expiryDate();
+		Perfume.company();
+		Perfume.madeIn();
+		Perfume.keepInBag();
+		Perfume.carryWhileTravel();
+		Perfume.favourite();
+		Perfume.review();
+		Perfume.perfumeDetails();
+		Perfume.gift();
+		Perfume.useInOffice();
+		Perfume.useInCollege();
+		Perfume.bottleShape();
+		Perfume.availableOnline();
+		Perfume.recommendation();
+	}
+}

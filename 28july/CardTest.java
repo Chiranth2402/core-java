@@ -1,0 +1,32 @@
+class CardTest{
+	public static void main(String[] args){
+		Card.cardName();
+		Card.cardType();
+		Card.cardNumber();
+		Card.cardHolderName();
+		Card.bankName();
+		Card.expiryDate();
+		Card.cvvNumber();
+		Card.activateCard();
+		Card.deactivateCard();
+		Card.swipeCard();
+		Card.insertCard();
+		Card.removeCard();
+		Card.checkBalance();
+		Card.withdrawMoney();
+		Card.depositMoney();
+		Card.onlinePayment();
+		Card.blockCard();
+		Card.unblockCard();
+		Card.cardLimit();
+		Card.cardPin();
+		Card.changePin();
+		Card.cardColor();
+		Card.cardCompany();
+		Card.cardPrice();
+		Card.cardDetails();
+		Card.cardStatus();
+		Card.cardReview();
+		Card.cardOwner();
+	}
+}

@@ -1,0 +1,90 @@
+class Stand {
+	public static void main(String[] args) {
+
+		int standId = 1001;
+		int tvSizeSupported = 55;
+		char standMaterial = 'W';
+		double price = 4999.99;
+		int numberOfShelves = 3;
+		int loadCapacity = 80;
+		String brandName = "Home Centre";
+		String modelName = "Classic TV Stand";
+		int warrantyMonths = 24;
+		String standColor = "Brown";
+		String installationType = "Floor Mounted";
+		String finishType = "Matte";
+		double standHeight = 60.5;
+		double standWidth = 120.0;
+		double standWeight = 28.5;
+		int manufacturedYear = 2026;
+		int stockAvailable = 50;
+		int numberOfLegs = 4;
+		String feature = "Cable Management";
+		boolean isAssembled = false;
+
+		System.out.println("***** TV Stand Details *****");
+		System.out.println("Stand ID:" + standId);
+		System.out.println("TV Size Supported:" + tvSizeSupported + " Inches");
+		System.out.println("Stand Material:" + standMaterial);
+		System.out.println("Price:" + price);
+		System.out.println("Number of Shelves:" + numberOfShelves);
+		System.out.println("Load Capacity:" + loadCapacity + " Kg");
+		System.out.println("Brand Name:" + brandName);
+		System.out.println("Model Name:" + modelName);
+		System.out.println("Warranty Months:" + warrantyMonths);
+		System.out.println("Stand Color:" + standColor);
+		System.out.println("Installation Type:" + installationType);
+		System.out.println("Finish Type:" + finishType);
+		System.out.println("Stand Height:" + standHeight + " cm");
+		System.out.println("Stand Width:" + standWidth + " cm");
+		System.out.println("Stand Weight:" + standWeight + " Kg");
+		System.out.println("Manufactured Year:" + manufacturedYear);
+		System.out.println("Stock Available:" + stockAvailable);
+		System.out.println("Number of Legs:" + numberOfLegs);
+		System.out.println("Feature:" + feature);
+		System.out.println("Is Assembled:" + isAssembled);
+		System.out.println();
+
+		standId = 1002;
+		tvSizeSupported = 65;
+		standMaterial = 'M';
+		price = 6999.99;
+		numberOfShelves = 4;
+		loadCapacity = 100;
+		brandName = "IKEA";
+		modelName = "Modern TV Unit";
+		warrantyMonths = 36;
+		standColor = "Black";
+		installationType = "Wall Mounted";
+		finishType = "Glossy";
+		standHeight = 55.0;
+		standWidth = 150.0;
+		standWeight = 35.0;
+		manufacturedYear = 2027;
+		stockAvailable = 30;
+		numberOfLegs = 0;
+		feature = "Storage Cabinets";
+		isAssembled = true;
+
+		System.out.println("Stand ID:" + standId);
+		System.out.println("TV Size Supported:" + tvSizeSupported + " Inches");
+		System.out.println("Stand Material:" + standMaterial);
+		System.out.println("Price:" + price);
+		System.out.println("Number of Shelves:" + numberOfShelves);
+		System.out.println("Load Capacity:" + loadCapacity + " Kg");
+		System.out.println("Brand Name:" + brandName);
+		System.out.println("Model Name:" + modelName);
+		System.out.println("Warranty Months:" + warrantyMonths);
+		System.out.println("Stand Color:" + standColor);
+		System.out.println("Installation Type:" + installationType);
+		System.out.println("Finish Type:" + finishType);
+		System.out.println("Stand Height:" + standHeight + " cm");
+		System.out.println("Stand Width:" + standWidth + " cm");
+		System.out.println("Stand Weight:" + standWeight + " Kg");
+		System.out.println("Manufactured Year:" + manufacturedYear);
+		System.out.println("Stock Available:" + stockAvailable);
+		System.out.println("Number of Legs:" + numberOfLegs);
+		System.out.println("Feature:" + feature);
+		System.out.println("Is Assembled:" + isAssembled);
+	}
+}

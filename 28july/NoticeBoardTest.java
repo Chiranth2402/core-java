@@ -1,0 +1,32 @@
+class NoticeBoardTest{
+	public static void main(String[] args){
+		NoticeBoard.displayNotice();
+		NoticeBoard.removeNotice();
+		NoticeBoard.updateNotice();
+		NoticeBoard.boardLocation();
+		NoticeBoard.boardColor();
+		NoticeBoard.boardSize();
+		NoticeBoard.noticeTitle();
+		NoticeBoard.noticeDate();
+		NoticeBoard.noticeTime();
+		NoticeBoard.noticeAuthor();
+		NoticeBoard.pinNotice();
+		NoticeBoard.unpinNotice();
+		NoticeBoard.cleanBoard();
+		NoticeBoard.addNewNotice();
+		NoticeBoard.readNotice();
+		NoticeBoard.noticeDetails();
+		NoticeBoard.boardDetails();
+		NoticeBoard.boardMaterial();
+		NoticeBoard.boardPrice();
+		NoticeBoard.boardOwner();
+		NoticeBoard.replaceBoard();
+		NoticeBoard.checkBoardCondition();
+		NoticeBoard.lockBoard();
+		NoticeBoard.unlockBoard();
+		NoticeBoard.attachPaper();
+		NoticeBoard.removePaper();
+		NoticeBoard.highlightNotice();
+		NoticeBoard.boardName();
+	}
+}

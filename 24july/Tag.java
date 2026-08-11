@@ -1,0 +1,90 @@
+class Tag {
+	public static void main(String[] args) {
+
+		int tagId = 1101;
+		int productId = 501;
+		char tagType = 'P';
+		double price = 49.99;
+		int quantity = 100;
+		int discountPercentage = 10;
+		String tagName = "Price Tag";
+		String companyName = "ABC Prints";
+		int warrantyMonths = 12;
+		String tagColor = "White";
+		String tagMaterial = "Paper";
+		String productName = "T-Shirt";
+		double tagLength = 8.5;
+		double tagWidth = 5.5;
+		double tagWeight = 2.5;
+		int manufacturedYear = 2026;
+		int stockAvailable = 500;
+		int serialNumber = 10001;
+		String feature = "Water Resistant";
+		boolean isReusable = false;
+
+		System.out.println("***** Tag Details *****");
+		System.out.println("Tag ID:" + tagId);
+		System.out.println("Product ID:" + productId);
+		System.out.println("Tag Type:" + tagType);
+		System.out.println("Price:" + price);
+		System.out.println("Quantity:" + quantity);
+		System.out.println("Discount Percentage:" + discountPercentage);
+		System.out.println("Tag Name:" + tagName);
+		System.out.println("Company Name:" + companyName);
+		System.out.println("Warranty Months:" + warrantyMonths);
+		System.out.println("Tag Color:" + tagColor);
+		System.out.println("Tag Material:" + tagMaterial);
+		System.out.println("Product Name:" + productName);
+		System.out.println("Tag Length:" + tagLength + " cm");
+		System.out.println("Tag Width:" + tagWidth + " cm");
+		System.out.println("Tag Weight:" + tagWeight + " g");
+		System.out.println("Manufactured Year:" + manufacturedYear);
+		System.out.println("Stock Available:" + stockAvailable);
+		System.out.println("Serial Number:" + serialNumber);
+		System.out.println("Feature:" + feature);
+		System.out.println("Is Reusable:" + isReusable);
+		System.out.println();
+
+		tagId = 1102;
+		productId = 502;
+		tagType = 'H';
+		price = 59.99;
+		quantity = 150;
+		discountPercentage = 15;
+		tagName = "Hang Tag";
+		companyName = "XYZ Labels";
+		warrantyMonths = 18;
+		tagColor = "Yellow";
+		tagMaterial = "Plastic";
+		productName = "Jeans";
+		tagLength = 9.0;
+		tagWidth = 6.0;
+		tagWeight = 3.0;
+		manufacturedYear = 2027;
+		stockAvailable = 650;
+		serialNumber = 10002;
+		feature = "Tear Resistant";
+		isReusable = true;
+
+		System.out.println("Tag ID:" + tagId);
+		System.out.println("Product ID:" + productId);
+		System.out.println("Tag Type:" + tagType);
+		System.out.println("Price:" + price);
+		System.out.println("Quantity:" + quantity);
+		System.out.println("Discount Percentage:" + discountPercentage);
+		System.out.println("Tag Name:" + tagName);
+		System.out.println("Company Name:" + companyName);
+		System.out.println("Warranty Months:" + warrantyMonths);
+		System.out.println("Tag Color:" + tagColor);
+		System.out.println("Tag Material:" + tagMaterial);
+		System.out.println("Product Name:" + productName);
+		System.out.println("Tag Length:" + tagLength + " cm");
+		System.out.println("Tag Width:" + tagWidth + " cm");
+		System.out.println("Tag Weight:" + tagWeight + " g");
+		System.out.println("Manufactured Year:" + manufacturedYear);
+		System.out.println("Stock Available:" + stockAvailable);
+		System.out.println("Serial Number:" + serialNumber);
+		System.out.println("Feature:" + feature);
+		System.out.println("Is Reusable:" + isReusable);
+	}
+}

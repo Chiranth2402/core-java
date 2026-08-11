@@ -1,0 +1,90 @@
+class MobileCase {
+	public static void main(String[] args) {
+
+		int caseId = 401;
+		int mobileSize = 7;
+		char caseColor = 'B';
+		double weight = 120.5;
+		int warrantyMonths = 12;
+		int quantity = 50;
+		String companyName = "Spigen";
+		String ownerName = "Rohan";
+		int ownerAge = 40;
+		String ownerCity = "Bengaluru";
+		String deliveryTo = "Mysuru";
+		String deliveryFrom = "Bengaluru";
+		double distanceInKm = 145.50;
+		double price = 599.99;
+		double thickness = 1.8;
+		int modelNumber = 1001;
+		int manufacturedYear = 2026;
+		int stockAvailable = 500;
+		String feature = "Shock Proof";
+		int rating = 5;
+
+		System.out.println("***** Mobile Case Details *****");
+		System.out.println("Case ID:" + caseId);
+		System.out.println("Mobile Size:" + mobileSize);
+		System.out.println("Case Color:" + caseColor);
+		System.out.println("Weight:" + weight);
+		System.out.println("Warranty Months:" + warrantyMonths);
+		System.out.println("Quantity:" + quantity);
+		System.out.println("Company Name:" + companyName);
+		System.out.println("Owner Name:" + ownerName);
+		System.out.println("Owner Age:" + ownerAge);
+		System.out.println("Owner City:" + ownerCity);
+		System.out.println("Delivery To:" + deliveryTo);
+		System.out.println("Delivery From:" + deliveryFrom);
+		System.out.println("Distance:" + distanceInKm + " KM");
+		System.out.println("Price:" + price);
+		System.out.println("Thickness:" + thickness);
+		System.out.println("Model Number:" + modelNumber);
+		System.out.println("Manufactured Year:" + manufacturedYear);
+		System.out.println("Stock Available:" + stockAvailable);
+		System.out.println("Feature:" + feature);
+		System.out.println("Rating:" + rating);
+		System.out.println();
+
+		caseId = 402;
+		mobileSize = 6;
+		caseColor = 'R';
+		weight = 110.0;
+		warrantyMonths = 18;
+		quantity = 75;
+		companyName = "Ringke";
+		ownerName = "Kiran";
+		ownerAge = 38;
+		ownerCity = "Mysuru";
+		deliveryTo = "Hubballi";
+		deliveryFrom = "Bengaluru";
+		distanceInKm = 410.25;
+		price = 799.99;
+		thickness = 2.0;
+		modelNumber = 1002;
+		manufacturedYear = 2027;
+		stockAvailable = 650;
+		feature = "Scratch Resistant";
+		rating = 4;
+
+		System.out.println("Case ID:" + caseId);
+		System.out.println("Mobile Size:" + mobileSize);
+		System.out.println("Case Color:" + caseColor);
+		System.out.println("Weight:" + weight);
+		System.out.println("Warranty Months:" + warrantyMonths);
+		System.out.println("Quantity:" + quantity);
+		System.out.println("Company Name:" + companyName);
+		System.out.println("Owner Name:" + ownerName);
+		System.out.println("Owner Age:" + ownerAge);
+		System.out.println("Owner City:" + ownerCity);
+		System.out.println("Delivery To:" + deliveryTo);
+		System.out.println("Delivery From:" + deliveryFrom);
+		System.out.println("Distance:" + distanceInKm + " KM");
+		System.out.println("Price:" + price);
+		System.out.println("Thickness:" + thickness);
+		System.out.println("Model Number:" + modelNumber);
+		System.out.println("Manufactured Year:" + manufacturedYear);
+		System.out.println("Stock Available:" + stockAvailable);
+		System.out.println("Feature:" + feature);
+		System.out.println("Rating:" + rating);
+	}
+}

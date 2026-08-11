@@ -1,0 +1,90 @@
+class Router {
+	public static void main(String[] args) {
+
+		int routerId = 601;
+		int numberOfAntennas = 4;
+		char routerBand = 'D';
+		double price = 2499.99;
+		int numberOfPorts = 4;
+		int wifiRange = 50;
+		String brandName = "TP-Link";
+		String modelName = "Archer C6";
+		int warrantyMonths = 24;
+		String routerColor = "Black";
+		String installationLocation = "Living Room";
+		String internetProvider = "Airtel";
+		double speedMbps = 300.0;
+		double powerConsumption = 12.5;
+		double routerWeight = 450.5;
+		int connectedDevices = 10;
+		int manufacturedYear = 2026;
+		int signalStrength = 95;
+		String securityType = "WPA2";
+		boolean isConnected = true;
+
+		System.out.println("***** Router Details *****");
+		System.out.println("Router ID:" + routerId);
+		System.out.println("Number of Antennas:" + numberOfAntennas);
+		System.out.println("Router Band:" + routerBand);
+		System.out.println("Price:" + price);
+		System.out.println("Number of Ports:" + numberOfPorts);
+		System.out.println("WiFi Range:" + wifiRange + " meters");
+		System.out.println("Brand Name:" + brandName);
+		System.out.println("Model Name:" + modelName);
+		System.out.println("Warranty Months:" + warrantyMonths);
+		System.out.println("Router Color:" + routerColor);
+		System.out.println("Installation Location:" + installationLocation);
+		System.out.println("Internet Provider:" + internetProvider);
+		System.out.println("Speed:" + speedMbps + " Mbps");
+		System.out.println("Power Consumption:" + powerConsumption + " W");
+		System.out.println("Router Weight:" + routerWeight + " g");
+		System.out.println("Connected Devices:" + connectedDevices);
+		System.out.println("Manufactured Year:" + manufacturedYear);
+		System.out.println("Signal Strength:" + signalStrength + "%");
+		System.out.println("Security Type:" + securityType);
+		System.out.println("Is Connected:" + isConnected);
+		System.out.println();
+
+		routerId = 602;
+		numberOfAntennas = 6;
+		routerBand = 'T';
+		price = 3999.99;
+		numberOfPorts = 5;
+		wifiRange = 75;
+		brandName = "ASUS";
+		modelName = "RT-AX55";
+		warrantyMonths = 36;
+		routerColor = "White";
+		installationLocation = "Office";
+		internetProvider = "JioFiber";
+		speedMbps = 1200.0;
+		powerConsumption = 18.0;
+		routerWeight = 520.0;
+		connectedDevices = 25;
+		manufacturedYear = 2027;
+		signalStrength = 99;
+		securityType = "WPA3";
+		isConnected = false;
+
+		System.out.println("Router ID:" + routerId);
+		System.out.println("Number of Antennas:" + numberOfAntennas);
+		System.out.println("Router Band:" + routerBand);
+		System.out.println("Price:" + price);
+		System.out.println("Number of Ports:" + numberOfPorts);
+		System.out.println("WiFi Range:" + wifiRange + " meters");
+		System.out.println("Brand Name:" + brandName);
+		System.out.println("Model Name:" + modelName);
+		System.out.println("Warranty Months:" + warrantyMonths);
+		System.out.println("Router Color:" + routerColor);
+		System.out.println("Installation Location:" + installationLocation);
+		System.out.println("Internet Provider:" + internetProvider);
+		System.out.println("Speed:" + speedMbps + " Mbps");
+		System.out.println("Power Consumption:" + powerConsumption + " W");
+		System.out.println("Router Weight:" + routerWeight + " g");
+		System.out.println("Connected Devices:" + connectedDevices);
+		System.out.println("Manufactured Year:" + manufacturedYear);
+		System.out.println("Signal Strength:" + signalStrength + "%");
+		System.out.println("Security Type:" + securityType);
+		System.out.println("Is Connected:" + isConnected);
+	}
+}

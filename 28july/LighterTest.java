@@ -1,0 +1,32 @@
+class LighterTest{
+	public static void main(String[] args){
+		Lighter.brand();
+		Lighter.color();
+		Lighter.price();
+		Lighter.weight();
+		Lighter.material();
+		Lighter.ignite();
+		Lighter.switchOn();
+		Lighter.switchOff();
+		Lighter.refillGas();
+		Lighter.gasLevel();
+		Lighter.flameSize();
+		Lighter.adjustFlame();
+		Lighter.useForStove();
+		Lighter.useForCandle();
+		Lighter.keepSafe();
+		Lighter.clean();
+		Lighter.pocket();
+		Lighter.quality();
+		Lighter.warranty();
+		Lighter.madeIn();
+		Lighter.owner();
+		Lighter.review();
+		Lighter.details();
+		Lighter.availability();
+		Lighter.durability();
+		Lighter.shape();
+		Lighter.carry();
+		Lighter.recommendation();
+	}
+}

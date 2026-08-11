@@ -1,0 +1,32 @@
+class BatteryTest{
+	public static void main(String[] args){
+		Battery.companyName();
+		Battery.batteryType();
+		Battery.capacity();
+		Battery.voltage();
+		Battery.price();
+		Battery.charge();
+		Battery.discharge();
+		Battery.batteryLevel();
+		Battery.health();
+		Battery.replace();
+		Battery.remove();
+		Battery.insert();
+		Battery.color();
+		Battery.weight();
+		Battery.temperature();
+		Battery.warranty();
+		Battery.manufacturer();
+		Battery.location();
+		Battery.owner();
+		Battery.review();
+		Battery.status();
+		Battery.details();
+		Battery.connect();
+		Battery.disconnect();
+		Battery.power();
+		Battery.model();
+		Battery.usage();
+		Battery.clean();
+	}
+}

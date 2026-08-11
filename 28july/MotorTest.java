@@ -1,0 +1,32 @@
+class MotorTest{
+	public static void main(String[] args){
+		Motor.company();
+		Motor.model();
+		Motor.power();
+		Motor.voltage();
+		Motor.price();
+		Motor.start();
+		Motor.stop();
+		Motor.running();
+		Motor.sound();
+		Motor.speed();
+		Motor.checkWire();
+		Motor.repair();
+		Motor.service();
+		Motor.clean();
+		Motor.cooling();
+		Motor.use();
+		Motor.location();
+		Motor.warranty();
+		Motor.owner();
+		Motor.review();
+		Motor.details();
+		Motor.efficiency();
+		Motor.weight();
+		Motor.material();
+		Motor.maintenance();
+		Motor.install();
+		Motor.remove();
+		Motor.condition();
+	}
+}

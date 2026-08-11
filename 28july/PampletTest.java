@@ -1,0 +1,32 @@
+class PampletTest{
+	public static void main(String[] args){
+		Pamplet.pampletTitle();
+		Pamplet.pampletColor();
+		Pamplet.pampletSize();
+		Pamplet.pampletPrice();
+		Pamplet.pampletCompany();
+		Pamplet.printPamplet();
+		Pamplet.distributePamplet();
+		Pamplet.foldPamplet();
+		Pamplet.openPamplet();
+		Pamplet.readPamplet();
+		Pamplet.closePamplet();
+		Pamplet.designPamplet();
+		Pamplet.editPamplet();
+		Pamplet.savePamplet();
+		Pamplet.deletePamplet();
+		Pamplet.paperQuality();
+		Pamplet.inkColor();
+		Pamplet.numberOfPages();
+		Pamplet.language();
+		Pamplet.publisherName();
+		Pamplet.publishDate();
+		Pamplet.pampletDetails();
+		Pamplet.checkAvailability();
+		Pamplet.replacePamplet();
+		Pamplet.recyclePamplet();
+		Pamplet.pampletOwner();
+		Pamplet.pampletReview();
+		Pamplet.pampletLocation();
+	}
+}

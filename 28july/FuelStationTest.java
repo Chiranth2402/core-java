@@ -1,0 +1,32 @@
+class FuelStationTest{
+	public static void main(String[] args){
+		FuelStation.stationName();
+		FuelStation.stationLocation();
+		FuelStation.fuelType();
+		FuelStation.petrolPrice();
+		FuelStation.dieselPrice();
+		FuelStation.fillPetrol();
+		FuelStation.fillDiesel();
+		FuelStation.checkAir();
+		FuelStation.fillAir();
+		FuelStation.washVehicle();
+		FuelStation.checkEngineOil();
+		FuelStation.changeEngineOil();
+		FuelStation.openStation();
+		FuelStation.closeStation();
+		FuelStation.paymentMode();
+		FuelStation.staffCount();
+		FuelStation.managerName();
+		FuelStation.workingHours();
+		FuelStation.cleanStation();
+		FuelStation.customerReview();
+		FuelStation.stationOwner();
+		FuelStation.stationDetails();
+		FuelStation.fuelQuality();
+		FuelStation.safetyRules();
+		FuelStation.emergencyNumber();
+		FuelStation.availableOffers();
+		FuelStation.restroom();
+		FuelStation.parking();
+	}
+}

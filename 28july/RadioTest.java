@@ -1,0 +1,32 @@
+class RadioTest{
+	public static void main(String[] args){
+		Radio.company();
+		Radio.model();
+		Radio.colour();
+		Radio.price();
+		Radio.weight();
+		Radio.switchOn();
+		Radio.switchOff();
+		Radio.increaseVolume();
+		Radio.decreaseVolume();
+		Radio.changeStation();
+		Radio.playFm();
+		Radio.playAm();
+		Radio.tune();
+		Radio.antenna();
+		Radio.battery();
+		Radio.speaker();
+		Radio.clean();
+		Radio.repair();
+		Radio.warranty();
+		Radio.owner();
+		Radio.review();
+		Radio.details();
+		Radio.carry();
+		Radio.useDaily();
+		Radio.madeIn();
+		Radio.availability();
+		Radio.signal();
+		Radio.quality();
+	}
+}

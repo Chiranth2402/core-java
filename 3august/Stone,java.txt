@@ -1,0 +1,23 @@
+class Stone{
+public static void stoneInfo(String stoneName,double stoneWeight,int stonePrice,char stoneGrade,boolean isNatural,String stoneColor){
+		System.out.println("Stone Name:"+stoneName);
+		System.out.println("Stone Weight:"+stoneWeight);
+		System.out.println("Stone Price:"+stonePrice);
+		System.out.println("Stone Grade:"+stoneGrade);
+		System.out.println("Is Natural:"+isNatural);
+		System.out.println("Stone Color:"+stoneColor);
+	}
+	public static void main(String[] args){
+
+		String stoneName="Granite";
+		double stoneWeight=12.5;
+		int stonePrice=850;
+		char stoneGrade='A';
+		boolean isNatural=true;
+		String stoneColor="Black";
+
+		Stone.stoneInfo(stoneName,stoneWeight,stonePrice,stoneGrade,isNatural,stoneColor);
+
+		Stone.stoneInfo("Marble",8.2,1200,'B',true,"White");
+	}
+}

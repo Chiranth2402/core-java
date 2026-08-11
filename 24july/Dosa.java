@@ -1,0 +1,90 @@
+class Dosa{
+	public static void main(String[] args){
+		int noOfDosa=2;
+		char dosaType='M';
+		double dosaPrice=60;
+		double dosaRadius=8;
+		double dosadiameter=16;
+		String hotelName="Udupi Garden";
+		int tableNumber=4;
+		String paymentType="Cash";
+		double distance=25.22;
+		String hotelLocation="Rajajinagar";
+		String chutneyType="Coconut";
+		String otherVerity="Plain";
+		double gheeQuantity=5.25;
+		double netWeight=50.5;
+		double hotelOpensAt=9;
+		double hotelCloseAt=5;
+		int orderNumber=11;
+		int spiceLevel=4;
+		boolean isCrispy=true;
+		boolean isSpicy=false;
+		
+		System.out.println("*******Dosa Details******");
+		System.out.println("Number of Dosa:"+noOfDosa);
+		System.out.println("Dosa Type:"+dosaType);
+		System.out.println("Dosa Price:"+dosaPrice);
+		System.out.println("Dosa Radius:"+dosaRadius);
+		System.out.println("Dosa Diameter:"+dosadiameter);
+		System.out.println("Hotel Name:"+hotelName);
+		System.out.println("Table Number:"+tableNumber);
+		System.out.println("Payment Type:"+paymentType);
+		System.out.println("Distance:"+distance);
+		System.out.println("Hotel Location:"+hotelLocation);
+		System.out.println("Chutney Type:"+chutneyType);
+		System.out.println("Other Verieties:"+otherVerity);
+		System.out.println("Ghee Quantity:"+gheeQuantity);
+		System.out.println("Dosa Net Weight:"+netWeight);
+		System.out.println("Hotel opens At:"+hotelOpensAt);
+		System.out.println("Hotel close At:"+hotelCloseAt);
+		System.out.println("Order number:"+orderNumber);
+		System.out.println("Dosa Spicy level:"+spiceLevel);
+		System.out.println("Is Dosa Spicy:"+isSpicy);
+		System.out.println("Is Dosa Crispy"+isCrispy);
+		System.out.println("");
+		
+		noOfDosa=3;
+		dosaType='P';
+		dosaPrice=40;
+		dosaRadius=6;
+		dosadiameter=12;
+		hotelName="Vidyarthi Bhavan";
+		tableNumber=5;
+		paymentType="Cash";
+		distance=15.22;
+		hotelLocation="Malleshwaram";
+		chutneyType="peenut";
+		otherVerity="Masala Dosa";
+		gheeQuantity=2.25;
+		netWeight=60.5;
+		hotelOpensAt=8;
+		hotelCloseAt=4;
+		orderNumber=8;
+	    spiceLevel=6;
+		isCrispy=false;
+		isSpicy=true;
+		
+		System.out.println("Number of Dosa:"+noOfDosa);
+		System.out.println("Dosa Type:"+dosaType);
+		System.out.println("Dosa Price:"+dosaPrice);
+		System.out.println("Dosa Radius:"+dosaRadius);
+		System.out.println("Dosa Diameter:"+dosadiameter);
+		System.out.println("Hotel Name:"+hotelName);
+		System.out.println("Table Number:"+tableNumber);
+		System.out.println("Payment Type:"+paymentType);
+		System.out.println("Distance:"+distance);
+		System.out.println("Hotel Location:"+hotelLocation);
+		System.out.println("Chutney Type:"+chutneyType);
+		System.out.println("Other Verieties:"+otherVerity);
+		System.out.println("Ghee Quantity:"+gheeQuantity);
+		System.out.println("Dosa Net Weight:"+netWeight);
+		System.out.println("Hotel opens At:"+hotelOpensAt);
+		System.out.println("Hotel close At:"+hotelCloseAt);
+		System.out.println("Order number:"+orderNumber);
+		System.out.println("Dosa Spicy level:"+spiceLevel);
+		System.out.println("Is Dosa Spicy:"+isSpicy);
+		System.out.println("Is Dosa Crispy"+isCrispy);
+		}
+}
+
